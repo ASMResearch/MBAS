@@ -1,0 +1,13 @@
+{
+  "cubeServers": ["madev01", "madev02"],
+  "cubeNames": ["Mercury"],
+  "drsServer": "mercuryproddrs",
+  "cubeFactTableName": [
+    "MercuryData",
+    "MercuryData_ByProduct",
+    "MercuryData_ByProfitCenter"
+  ],
+  "cubeIgnoreObjects": [],
+  "verboseLogging": true,
+  "disabled": false
+}
