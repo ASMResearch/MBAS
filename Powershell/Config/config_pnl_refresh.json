@@ -1,11 +1,14 @@
 {
-  "cubeServers": ["madev01", "madev02"],
-  "cubeNames": ["Mercury"],
-  "drsServer": "mercuryproddrs",
+  "cubeServers": [
+    "asazure://centralus.asazure.windows.net/mambas"
+  ],
+  "cubeNames": [
+    "PnL"
+  ],
   "cubeFactTableName": [
-    "MercuryData",
-    "MercuryData_ByProduct",
-    "MercuryData_ByProfitCenter"
+    "PnLData",
+    "PnLData_ByProduct",
+    "PnLData_ByProfitCenter"
   ],
   "cubeIgnoreObjects": [],
   "verboseLogging": true,

@@ -41,6 +41,8 @@ $fcVersions = @{'C' = @('Current', 'FCST'); 'P' = ('Historical', ( -Join ('FCST'
 
 # Quarters or months?
 $quarters = $false
+# $quarters = $true
+
 if ($quarters) {
     $periodNums = @(1..4)
 }
